@@ -1,0 +1,33 @@
+
+@media (max-width :576px){
+    header .topheader{
+        height: 290px;
+    }
+    header .topheader-left{
+        text-align: center;
+        display: inherit;
+    }
+    .topheader-left p{
+        border-left: none;
+    }
+    header .topheader-right{
+        text-align: center;
+        display: inherit;
+    } 
+    header .topheader-right p,header .topheader-right .dropdown,header .topheader-right .icon-cart{
+        border-left: none;
+    }
+    .dropdown-menu{
+        width: 95%;
+        text-align: center;
+    }
+    .icon-cart{
+        height: auto;
+    }
+    .slidemonan .sanpham{
+        width: 50%;
+    }
+    .sanpham{
+        width: 50%;
+    }
+}
